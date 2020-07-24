@@ -30,6 +30,16 @@
             <artifactId>finlay-starter-test</artifactId>
             <version>${finlay.version}</version>
         </dependency>
+        <!--redis-->
+        <dependency>
+            <groupId>com.finlay.scaffold</groupId>
+            <artifactId>finlay-starter-redis</artifactId>
+            <version>${finlay.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
 
         <!--工具集-->
         <!--lombok-->
